@@ -1,0 +1,22 @@
+---
+title: "Day 3"
+output: html_document
+date: "03/11/2023"
+---
+library(dplyr)
+library(sf)
+library(here)
+
+csv <- read.csv(here("FAOSTAT_data_en_11-3-2023.csv"))
+
+filtered_data <- csv %>%
+  group_by(Area) %>%
+  filter(Value == max(Value)) %>%
+  ungroup()
+
+world <- st_read(here("BNDA_simplified.shp"))
+
+joined_data <- world %>%
+  left_join(filtered_data, by = c("nam_en" = "Area"))
+
+st_write(joined_data, "joined_data.shp")
