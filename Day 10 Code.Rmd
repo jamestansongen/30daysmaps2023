@@ -1,0 +1,21 @@
+---
+title: "Day 10"
+output: html_document
+date: "10/11/2023"
+---
+library(here)
+library(leaflet)
+library(leaflet.extras)
+library(htmlwidgets)
+
+data <- read.csv("UFOs_coord.csv")
+
+my_map <- data %>% 
+  leaflet() %>%
+  addTiles() %>%
+  addHeatmap(lng = data$lng, lat = data$lat, blur = 20, max = 0.1, radius = 15, group = "heatmap") %>%
+  setView(lng = -98.583333, lat = 39.828175, zoom = 4)
+
+my_map
+
+saveWidget(my_map, file="heatmap_map.html")
