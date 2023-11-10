@@ -1,0 +1,297 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "Fast_Food_Restaurants_All_5db7a427_8e7e_4a43_9f20_49c6b21a0468": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_BK_b202118c_9d37_46ac_9837_89533cec4317": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_CarlsJr_7e0ddd8e_5648_4397_9ba1_9d5ff3973249": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_Hardee_4f3937fb_8529_401e_b29a_5a6f59921a91": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_InNOut_3f05dd5b_6984_484f_bdd1_c63d78027a3b": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_Jack_fcd09905_af97_4bf9_bc65_406230274a5e": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_KFC_1df68c04_b3e4_4cec_933e_9966e6276d10": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_MC_c1dedf4e_6f64_4f30_9021_37899130d96e": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_Pizza_efed5eaf_0932_451e_a89f_bae91739cbfe": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_Taco_ba2b0c56_5ba3_4755_a339_2e3207fbf659": {
+        "enabled": true,
+        "groups": []
+      },
+      "Fast_Food_Restaurants_Wendy_31f41a55_6933_4d68_9fa3_8aa66ce26d47": {
+        "enabled": true,
+        "groups": []
+      },
+      "Output_All_63ecebcd_4376_4468_8284_9744e56696ba": {
+        "enabled": true,
+        "groups": []
+      },
+      "US_Mainland_6f7b2a25_f233_49b1_8579_db3ebcc36139": {
+        "enabled": true,
+        "groups": []
+      },
+      "US_Mainland_Hexagon_0602cf71_8b0e_4196_b4c4_62bc984b0a90": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:88ee9407": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "Output_All_63ecebcd_4376_4468_8284_9744e56696ba",
+      "name": "Output_All",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Extruded",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "No edge",
+          "editText": "None",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"left\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "\"COUNT\"",
+          "type": 1
+        },
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_BK_b202118c_9d37_46ac_9837_89533cec4317",
+      "name": "Fast_Food_Restaurants_BK",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_CarlsJr_7e0ddd8e_5648_4397_9ba1_9d5ff3973249",
+      "name": "Fast_Food_Restaurants_CarlsJr",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_Hardee_4f3937fb_8529_401e_b29a_5a6f59921a91",
+      "name": "Fast_Food_Restaurants_Hardee",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_InNOut_3f05dd5b_6984_484f_bdd1_c63d78027a3b",
+      "name": "Fast_Food_Restaurants_InNOut",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_Jack_fcd09905_af97_4bf9_bc65_406230274a5e",
+      "name": "Fast_Food_Restaurants_Jack",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_KFC_1df68c04_b3e4_4cec_933e_9966e6276d10",
+      "name": "Fast_Food_Restaurants_KFC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_MC_c1dedf4e_6f64_4f30_9021_37899130d96e",
+      "name": "Fast_Food_Restaurants_MC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_Pizza_efed5eaf_0932_451e_a89f_bae91739cbfe",
+      "name": "Fast_Food_Restaurants_Pizza",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_Taco_ba2b0c56_5ba3_4755_a339_2e3207fbf659",
+      "name": "Fast_Food_Restaurants_Taco",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_Wendy_31f41a55_6933_4d68_9fa3_8aa66ce26d47",
+      "name": "Fast_Food_Restaurants_Wendy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Fast_Food_Restaurants_All_5db7a427_8e7e_4a43_9f20_49c6b21a0468",
+      "name": "Fast_Food_Restaurants_All",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "US_Mainland_Hexagon_0602cf71_8b0e_4196_b4c4_62bc984b0a90",
+      "name": "US_Mainland_Hexagon",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "US_Mainland_6f7b2a25_f233_49b1_8579_db3ebcc36139",
+      "name": "US_Mainland",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:88ee9407",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "de639558",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "de639558",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "Version": 20701
+}
