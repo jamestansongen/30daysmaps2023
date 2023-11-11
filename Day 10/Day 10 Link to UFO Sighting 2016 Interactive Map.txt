@@ -1,0 +1,3 @@
+Interactive Map: https://jamestansongen.github.io/USA_UFO_Map_2016/
+
+Data Source: https://www.kaggle.com/datasets/utkarshx27/ufo-sights-2016-us-and-canada/
