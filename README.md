@@ -25,6 +25,14 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 4: A bad map
 
+What makes a bad map? Is it the absence of good analysis and/or good visualisation?. Overall, poor analysis with good visualisation is probably more dangerous.
+
+The map below is a mashup of random datasets I could find. Visually it is repulsive and I do not think much useful insights could be gleam from it.
+
+![Everything](Maps/Day4.png)
+
+Data Source: Numerous Sources
+
 ### Day 3: Polygon
 
 Using data from The Food and Agriculture Organization of the United Nations, I extracted the most consumed starch in each country for 2021. 
@@ -35,6 +43,7 @@ I then plotted two versions: a normal one and one where the polygons are filled 
 
 ![Most consumed starch actual](Maps/Day3b.png)
 
+Data Source: Food and Agriculture Organization
 
 ### Day 2: Lines
 
