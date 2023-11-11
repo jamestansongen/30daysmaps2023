@@ -13,13 +13,35 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 10: North America
 
+Data Source: kaggle
+
 ### Day 9: Hexagons
+
+Data Source: Esri
 
 ### Day 8: Africa
 
+Data Source: USGS
+
 ### Day 7: Navigation
 
+Data Source: Edinburgh DataShare 
+
 ### Day 6: Asia
+
+I decided to choose Singapore, my home, for the theme and the maps were designed according to some of the conversations I had with other people (including Singaporeans) after moving to London. The captions are not meant to take a shot at anyone but present the conversations in a humourous way. Do take the maps with a pinch of salt. The font used is called Singapore Sling which is a gin-based sling cocktail.
+
+![Asia](Maps/Day6a.png)
+
+![Asia](Maps/Day6b.png)
+
+![Asia](Maps/Day6c.png)
+
+![Asia](Maps/Day6d.png)
+
+![Asia](Maps/Day6e.png)
+
+Data Source: data.gov.sg, GADM
 
 ### Day 5: Analog Map
 
@@ -28,6 +50,8 @@ Drew various maps by hand, based on the Pokemon series.
 ![Analog](Maps/Day5.jpg)
 
 While I lack the artistic talent, I would recommend looking up King of Maps, a map shop in Cusco, Peru. Their hand-drawn maps are hands down some of the most aesthetically pleasing and detailed maps I seen. I also appreciate how there is greater South American representation in their maps.
+
+Data Source: Nintendo
 
 ### Day 4: A bad map
 
