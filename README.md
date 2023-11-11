@@ -25,6 +25,12 @@ Data Source: USGS
 
 ### Day 7: Navigation
 
+"Suspended between sea and sky, battered by the waves and the wind, lighthouses mark the battle lines between the elements. They guard the boundaries between the solid human world and the primordial chaos of the waters; between stability and instability; between the known and the unknown." - Where Light in Darkness Lies: The Story of the Lighthouse (Veronica della Dora, 2022)
+
+![Navigation](Maps/Day7a.PNG)
+
+![Click to view animated GIF](Maps/Day7b.gif)
+
 Data Source: Edinburgh DataShare 
 
 ### Day 6: Asia
