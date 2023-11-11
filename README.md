@@ -31,4 +31,4 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 1: Points
 
-![JTSE's Instagram Post with Coordinates](Maps/Day1a.jfif)
+![JTSE's Instagram Post with Coordinates](Maps/Day1a.png)
