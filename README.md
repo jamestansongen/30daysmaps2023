@@ -25,7 +25,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 Drew various maps by hand, based on the Pokemon series.
 
-![Analog](Maps/Day 5.jpg)
+![Analog](Maps/Day5.jpg)
 
 While I lack the artistic talent, I would recommend looking up King of Maps, a map shop in Cusco, Peru. Their hand-drawn maps are hands down some of the most aesthetically pleasing and detailed maps I seen. I also appreciate how there is greater South American representation in their maps.
 
