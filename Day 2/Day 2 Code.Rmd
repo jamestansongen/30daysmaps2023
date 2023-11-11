@@ -1,0 +1,23 @@
+---
+title: "Day 2"
+output: html_document
+date: "02/11/2023"
+---
+library(ggplot2)
+library(dplyr)
+library(leaflet)
+library(here)
+
+data <- read.csv(here("Yr Wyddfa (Snowdon) via Miners' Track and Pyg Circular.csv"))
+
+plot <- ggplot(data, aes(x = Longitude, y = Latitude, color = Elevation)) +
+    geom_path(linewidth = 1.5) +
+    scale_color_gradient(low = "green", high = "red") +
+    theme_void() +  # Use theme_void() to get a transparent background
+    theme(plot.background = element_rect(fill = "transparent"))  # Make the plot background transparent
+    
+# convert points to a single polyline
+
+ggsave("your_plot.png", plot, width = 10, height = 10, units = "cm")
+
+# Save the plot as a PNG image
