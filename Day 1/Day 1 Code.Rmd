@@ -1,0 +1,61 @@
+---
+title: "Day 1"
+output: html_document
+date: "01/11/2023"
+---
+library(jsonlite)
+library(sf)
+library(here)
+library(raster)
+library(terra)
+library(janitor)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(jpeg)
+
+json_data <- fromJSON(here("posts_1.json"))
+#read the json file of Instagram Posts
+#replace with your own data
+
+latitude_list <- numeric()
+longitude_list <- numeric()
+#Initialize lists to store latitude and longitude values
+
+for (media_entry in json_data$media) {
+     if ("exif_data" %in% names(media_entry$media_metadata$photo_metadata)) {
+         exif_data <- media_entry$media_metadata$photo_metadata$exif_data[[1]]
+         if ("latitude" %in% names(exif_data)) {
+             latitude_list <- c(latitude_list, exif_data$latitude)
+         }
+         if ("longitude" %in% names(exif_data)) {
+             longitude_list <- c(longitude_list, exif_data$longitude)
+         }
+     }
+ }
+#Loop through the "media" objects and extract latitude and longitude when available
+
+locations <- data.frame(Longitude=longitude_list, Latitude=latitude_list)
+#Create a data frame with latitude and longitude
+
+locations_df <- st_as_sf(locations, coords = c("Longitude", "Latitude"), crs = 4326)
+#Convert into spatial data frame
+
+shape <- st_read(here("world-administrative-boundaries.shp"))
+#Read in world boundaries
+
+background_image <- readJPEG(here("312904-P8IMVC-378.jpg"))
+#Read in Instagram background
+
+ggplot() +
+  annotation_raster(background_image, xmin = -180, xmax = 180, ymin = -90, ymax = 90) +
+  geom_sf(data = shape) +  # Plot the world outline from 'shape'
+  geom_sf(data = locations_df, aes(color = "turquoise"), size = 2.5) +  # Reduce the size of the points from 'sf_df' to 2.5
+  geom_sf(data = locations_df, aes(color = "turquoise"), size = 1.5, shape = 21, fill = "white") +  # Add points with an outline
+  labs(title = "Insert Your Own Title Here", x = "", y = "") +
+  theme_minimal() +
+  scale_color_manual(values = "turquoise", labels = c("Post")) +
+  guides(color = guide_legend(title = "Legend")) +
+  theme(
+    plot.title = element_text(hjust = 0.5)  # Center the plot title
+  )
