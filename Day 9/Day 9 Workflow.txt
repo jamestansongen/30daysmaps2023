@@ -1,0 +1,10 @@
+Tutorial: https://www.youtube.com/watch?v=ETk1pbGTen0
+Data: https://hub.arcgis.com/maps/f12d05c1b4054fffa34f4ae8e7599f17/about
+
+Step 1: Load point and polygon/boundary layer
+Step 2: Install plugin "mmqgis"
+Step 3: MMQGIS>Create>Create Grid Layer - change "Shape Type" to Hexagons and "Extent" to Layer Extent (Select Appropriate Layer). Adjust "X/Y spacing". Save the file.
+Step 4: Vector>Research Tools>Select By Location. "Select features from" the hexagon grid generated and intersect for "Where the feature" and outline layer for "By comparing to the features from". Click run.
+Step 5: Right click on the hexagon layer and Export>Save selected features as.
+Step 6: Vector>Analysis Tools>Count Points in Polygon. Fill in appropriately for polygon and points. Click run.
+Step 7: Change symbology accordingly.
