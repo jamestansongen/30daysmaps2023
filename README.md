@@ -23,7 +23,7 @@ Data Source: Esri
 
 Decided to follow [Helen McKenzie's](https://www.helenmakesmaps.com/post/how-to-joy-plot) tutorial on making a joy plot/ The tutorial was easy to follow and the output was really satisfying.
 
-![CapeTown](Maps/Day8.PNG)
+![CapeTown](Maps/Day8.png)
 
 I made a joy plot of Cape Town, South Africa as it was the first African city I visited back in 2003. Table Mountain with an elevation of 1086m (bottom left) offers a breathtaking panorama of the city and it is home to adorable dassies (or rock hyrax). I would definitely recommend visiting!
 
