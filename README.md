@@ -27,7 +27,22 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 3: Polygon
 
+Using data from The Food and Agriculture Organization of the United Nations, I extracted the most consumed starch in each country for 2021. 
+
+![Most consumed starch meme](Maps/Day3a.PNG)
+
+I then plotted two versions: a normal one and one where the polygons are filled with images of starches.
+
+![Most consumed starch actual](Maps/Day3b.PNG)
+
+
 ### Day 2: Lines
+
+Extracted a hiking route from AllTrails and convert all the points into a polyline. I then georeference the file in QGIS against a basemap. The line changes colour with elevation which shows how the final push to the submit will be the most intense. I chose Snowdon as it is a hike I hope to conquer in my time here as well.
+
+![Yr Wyddfa (Snowdon) via Miners' Track and Pyg Circular](Maps/Day2.PNG)
+
+Data Source: AllTrails
 
 ### Day 1: Points
 
@@ -40,3 +55,5 @@ I subsequently extracted out the coordinates of my posts before plotting the poi
 ![JTSE's Instagram Post with Coordinates](Maps/Day1a.png)
 
 Given that there is more attention to the replicability of research, I will also be sharing the code I use and most of the datasets (except when it involves data privacy).
+
+Data Source: Author's own
