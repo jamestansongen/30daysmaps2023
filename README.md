@@ -29,18 +29,18 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 Using data from The Food and Agriculture Organization of the United Nations, I extracted the most consumed starch in each country for 2021. 
 
-![Most consumed starch meme](Maps/Day3a.PNG)
+![Most consumed starch meme](Maps/Day3a.png)
 
 I then plotted two versions: a normal one and one where the polygons are filled with images of starches.
 
-![Most consumed starch actual](Maps/Day3b.PNG)
+![Most consumed starch actual](Maps/Day3b.png)
 
 
 ### Day 2: Lines
 
 Extracted a hiking route from AllTrails and convert all the points into a polyline. I then georeference the file in QGIS against a basemap. The line changes colour with elevation which shows how the final push to the submit will be the most intense. I chose Snowdon as it is a hike I hope to conquer in my time here as well.
 
-![Yr Wyddfa (Snowdon) via Miners' Track and Pyg Circular](Maps/Day2.PNG)
+![Yr Wyddfa (Snowdon) via Miners' Track and Pyg Circular](Maps/Day2.png)
 
 Data Source: AllTrails
 
@@ -48,7 +48,7 @@ Data Source: AllTrails
 
 I accessed and downloaded my Instagram Post data (refer to https://lnkd.in/eabi6Nz8 on how to get your own data & screenshot for how the data looks like. Only posts which were geotagged will have coordinates). 
 
-![Instagram Post Raw Data](Maps/Day1b.PNG)
+![Instagram Post Raw Data](Maps/Day1b.png)
 
 I subsequently extracted out the coordinates of my posts before plotting the points and setting the background to Instagram's colour scheme. From the map, most of the points are concentrated in Singapore (home) and US (where I spent a year abroad). 
 
