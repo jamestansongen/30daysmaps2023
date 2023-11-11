@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 11: Retro
+
+Was inspired by 1980s/1990s Japanese City Pop to make a neon map of Japan. Selected/exported groups of polylines from the boundary and changed each of their colour and glow to create the vibes.
+
+![NeonJapan](Maps/Day11.png)
+
+Data Source: [Geospatial Information Authority of Japan](https://www.gsi.go.jp/kankyochiri/gm_japan_e.html)
+
 ### Day 10: North America
 
 I decided to make a heatmap of UFO sightings in 2016 🛸. The interactive map can be accessed at [UFO 2016 Sightings](https://lnkd.in/gDHwu6P8) 
