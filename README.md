@@ -13,6 +13,8 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 10: North America
 
+I decided to make a heatmap of UFO sightings in 2016 🛸. The interactive map can be accessed at [UFO 2016 Sightings](https://lnkd.in/gDHwu6P8) 
+
 Data Source: kaggle
 
 ### Day 9: Hexagons
