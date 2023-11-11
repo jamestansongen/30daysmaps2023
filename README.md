@@ -23,13 +23,13 @@ Data Source: kaggle
 
 I generated a hexagon map followed by a count of points in polygon in QGIS. The maps are informative in showing the distribution and number of outlets for various chains across the US.
 
-![Hex1](Maps/Map9a.png)
+![Hex1](Maps/Day9a.png)
 
-![Hex2](Maps/Map9b.PNG)
+![Hex2](Maps/Day9b.PNG)
 
-![Hex3](Maps/Map9c.PNG)
+![Hex3](Maps/Day9c.PNG)
 
-![Hex4](Maps/Map9d.PNG)
+![Hex4](Maps/Day9d.PNG)
 
 Data Source: Esri
 
