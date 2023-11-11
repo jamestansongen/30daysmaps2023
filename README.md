@@ -25,7 +25,7 @@ I decided to make a heatmap of UFO sightings in 2016 🛸. The interactive map c
 
 ![CapeTown](Maps/Day10.png)
 
-Data Source: kaggle
+Data Source: [kaggle](https://www.kaggle.com/datasets/utkarshx27/ufo-sights-2016-us-and-canada/)
 
 ### Day 9: Hexagons
 
@@ -39,7 +39,7 @@ I generated a hexagon map followed by a count of points in polygon in QGIS. The 
 
 ![Hex4](Maps/Day9d.PNG)
 
-Data Source: Esri
+Data Source: [Esri](https://hub.arcgis.com/maps/f12d05c1b4054fffa34f4ae8e7599f17)
 
 ### Day 8: Africa
 
@@ -49,7 +49,7 @@ Decided to follow [Helen McKenzie's](https://www.helenmakesmaps.com/post/how-to-
 
 I made a joy plot of Cape Town, South Africa as it was the first African city I visited back in 2003. Table Mountain with an elevation of 1086m (bottom left) offers a breathtaking panorama of the city and it is home to adorable dassies (or rock hyrax). I would definitely recommend visiting!
 
-Data Source: USGS
+Data Source: [USGS](https://earthexplorer.usgs.gov/)
 
 ### Day 7: Navigation
 
@@ -57,7 +57,7 @@ Data Source: USGS
 
 ![Click to view animated GIF](Maps/Day7b.gif)
 
-Data Source: Edinburgh DataShare 
+Data Source: [Edinburgh DataShare](https://datashare.ed.ac.uk/handle/10283/2425?show=full) 
 
 ### Day 6: Asia
 
@@ -73,7 +73,7 @@ I decided to choose Singapore, my home, for the theme and the maps were designed
 
 ![Asia5](Maps/Day6e.PNG)
 
-Data Source: data.gov.sg, GADM
+Data Source: [data.gov.sg](https://beta.data.gov.sg/collections/1621/datasets/d_142fd1a4da4e367a1a8323613af2f272/view), [GADM](https://gadm.org/download_country.html)
 
 ### Day 5: Analog Map
 
@@ -105,7 +105,7 @@ I then plotted two versions: a normal one and one where the polygons are filled 
 
 ![Most consumed starch actual](Maps/Day3b.png)
 
-Data Source: Food and Agriculture Organization
+Data Source: [Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/FBS)
 
 ### Day 2: Lines
 
@@ -113,7 +113,7 @@ Extracted a hiking route from AllTrails and convert all the points into a polyli
 
 ![Yr Wyddfa (Snowdon) via Miners' Track and Pyg Circular](Maps/Day2.png)
 
-Data Source: AllTrails
+Data Source: [AllTrails](https://www.alltrails.com/en-gb/explore/trail/wales/gwynedd/yr-wyddfa-snowdon-via-miner-s-track-and-pyg-circular)
 
 ### Day 1: Points
 
