@@ -33,7 +33,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 I accessed and downloaded my Instagram Post data (refer to https://lnkd.in/eabi6Nz8 on how to get your own data & screenshot for how the data looks like. Only posts which were geotagged will have coordinates). 
 
-![Instagram Post Raw Data](Maps/Day1a.png)
+![Instagram Post Raw Data](Maps/Day1b.png)
 
 I subsequently extracted out the coordinates of my posts before plotting the points and setting the background to Instagram's colour scheme. From the map, most of the points are concentrated in Singapore (home) and US (where I spent a year abroad). 
 
