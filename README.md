@@ -31,15 +31,15 @@ Data Source: Edinburgh DataShare
 
 I decided to choose Singapore, my home, for the theme and the maps were designed according to some of the conversations I had with other people (including Singaporeans) after moving to London. The captions are not meant to take a shot at anyone but present the conversations in a humourous way. Do take the maps with a pinch of salt. The font used is called Singapore Sling which is a gin-based sling cocktail.
 
-![Asia](Maps/Day6a.png)
+![Asia1](Maps/Day6a.png)
 
-![Asia](Maps/Day6b.png)
+![Asia2](Maps/Day6b.png)
 
-![Asia](Maps/Day6c.png)
+![Asia3](Maps/Day6c.png)
 
-![Asia](Maps/Day6d.png)
+![Asia4](Maps/Day6d.png)
 
-![Asia](Maps/Day6e.png)
+![Asia5](Maps/Day6e.png)
 
 Data Source: data.gov.sg, GADM
 
