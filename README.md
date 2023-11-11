@@ -23,6 +23,12 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 5: Analog Map
 
+Drew various maps by hand, based on the Pokemon series.
+
+![Analog](Maps/Day5.jpg)
+
+While I lack the artistic talent, I would recommend looking up King of Maps, a map shop in Cusco, Peru. Their hand-drawn maps are hands down some of the most aesthetically pleasing and detailed maps I seen. I also appreciate how there is greater South American representation in their maps.
+
 ### Day 4: A bad map
 
 What makes a bad map? Is it the absence of good analysis and/or good visualisation?. Overall, poor analysis with good visualisation is probably more dangerous.
