@@ -15,9 +15,9 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 During my time at UNC-Chapel Hill, I had the opportunity to take a module dedicated solely to the Galapagos Islands. The islands, known for their unique and diverse ecosystems, played a pivotal role in shaping our understanding of evolution, as famously observed by Charles Darwin. The physical environment of the Galapagos provides an intriguing backdrop for studying geological processes and ecological diversity. On the other hand, examining the human environment on the islands allows us to examine the delicate balance between conservation efforts and sustainable development. Hoping to eventually get the opportunity to visit the Islands someday!
 
-![Galapagos](Maps/Day 12.png)
+![Galapagos](Maps/Day12.png)
 
-Data Source: [OpenGeoData FCD](https://geodata-fcdgps.opendata.arcgis.com/datasets/fcdgps::curvas-de-nivel-30m/explore)
+Data Source: [OpenGeoData FCD](https://geodata-fcdgps.opendata.arcgis.com/datasets/fcdgps::curvas-de-nivel-30m/explore) \n
 Image 1: [Iguna](https://pixabay.com/photos/iguana-galapagos-reptile-nature-894465/)
 Image 2: [Turtle](https://pixabay.com/photos/turtle-huge-the-galapagos-islands-4205792/)
 Image 3: [Albatross](https://unsplash.com/photos/white-and-black-bird-on-brown-stick-during-daytime-50Joxuqtp3s)
