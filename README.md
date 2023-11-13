@@ -17,9 +17,9 @@ During my time at UNC-Chapel Hill, I had the opportunity to take a module dedica
 
 ![Galapagos](Maps/Day12.png)
 
-Data Source: [OpenGeoData FCD](https://geodata-fcdgps.opendata.arcgis.com/datasets/fcdgps::curvas-de-nivel-30m/explore) `<br>`
-Image 1: [Iguna](https://pixabay.com/photos/iguana-galapagos-reptile-nature-894465/) `<br>`
-Image 2: [Turtle](https://pixabay.com/photos/turtle-huge-the-galapagos-islands-4205792/) `<br>`
+Data Source: [OpenGeoData FCD](https://geodata-fcdgps.opendata.arcgis.com/datasets/fcdgps::curvas-de-nivel-30m/explore) <br>
+Image 1: [Iguna](https://pixabay.com/photos/iguana-galapagos-reptile-nature-894465/) <br>
+Image 2: [Turtle](https://pixabay.com/photos/turtle-huge-the-galapagos-islands-4205792/) <br>
 Image 3: [Albatross](https://unsplash.com/photos/white-and-black-bird-on-brown-stick-during-daytime-50Joxuqtp3s)
 
 ### Day 11: Retro
