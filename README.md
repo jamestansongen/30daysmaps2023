@@ -11,6 +11,12 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 14: Europe
+
+Made a leaflet map (https://lnkd.in/gjFbNztP) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
+
+![CulturalInfrastructure](Maps/Day14.mp4)
+
 ### Day 13: Chloropleth
 
 Was combing through 'Our World in Data' to decide which two datasets were similar in timeframe and topic to make this bivariate map.
