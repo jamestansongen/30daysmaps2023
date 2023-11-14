@@ -15,7 +15,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 Made a leaflet map (https://lnkd.in/gjFbNztP) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
 
-![CulturalInfrastructure](Maps/Day14.mp4)
+![CulturalInfrastructure](Maps/Day14.gif)
 
 ### Day 13: Chloropleth
 
