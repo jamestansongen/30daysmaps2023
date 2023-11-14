@@ -11,6 +11,15 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 13: Chloropleth
+
+Was combing through 'Our World in Data' to decide which two datasets were similar in timeframe and topic to make this bivariate map.
+
+![MammalsNBirds](Maps/Day13.png)
+
+Bivariate Tutorial: [Bivariate choropleth maps in QGIS](https://bnhr.xyz/2019/09/15/bivariate-choropleths-in-qgis.html)
+Data Source: Endemic [Bird Species 2020](https://ourworldindata.org/grapher/endemic-bird-species-by-country) ; [Endemic Mammal Species 2020](https://ourworldindata.org/grapher/endemic-mammal-species-by-country)
+
 ### Day 12: South America
 
 During my time at UNC-Chapel Hill, I had the opportunity to take a module dedicated solely to the Galapagos Islands. The islands, known for their unique and diverse ecosystems, played a pivotal role in shaping our understanding of evolution, as famously observed by Charles Darwin. The physical environment of the Galapagos provides an intriguing backdrop for studying geological processes and ecological diversity. On the other hand, examining the human environment on the islands allows us to examine the delicate balance between conservation efforts and sustainable development. Hoping to eventually get the opportunity to visit the Islands someday!
@@ -60,6 +69,7 @@ Decided to follow [Helen McKenzie's](https://www.helenmakesmaps.com/post/how-to-
 
 I made a joy plot of Cape Town, South Africa as it was the first African city I visited back in 2003. Table Mountain with an elevation of 1086m (bottom left) offers a breathtaking panorama of the city and it is home to adorable dassies (or rock hyrax). I would definitely recommend visiting!
 
+Joyplot Tutorial: [How to make a joy-plot](https://www.helenmakesmaps.com/post/how-to-joy-plot)
 Data Source: [USGS](https://earthexplorer.usgs.gov/)
 
 ### Day 7: Navigation
