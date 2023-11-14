@@ -18,7 +18,7 @@ Was combing through 'Our World in Data' to decide which two datasets were simila
 ![MammalsNBirds](Maps/Day13.png)
 
 Bivariate Tutorial: [Bivariate choropleth maps in QGIS](https://bnhr.xyz/2019/09/15/bivariate-choropleths-in-qgis.html) \
-Data Source: Endemic [Bird Species 2020](https://ourworldindata.org/grapher/endemic-bird-species-by-country) ; [Endemic Mammal Species 2020](https://ourworldindata.org/grapher/endemic-mammal-species-by-country)
+Data Source: [Endemic Bird Species 2020](https://ourworldindata.org/grapher/endemic-bird-species-by-country) ; [Endemic Mammal Species 2020](https://ourworldindata.org/grapher/endemic-mammal-species-by-country)
 
 ### Day 12: South America
 
