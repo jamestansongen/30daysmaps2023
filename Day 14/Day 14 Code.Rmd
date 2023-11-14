@@ -1,0 +1,69 @@
+---
+title: Day 14
+output: html_document
+date: 14/11/2023
+---
+
+library(sf)
+library(here)
+library(tmap)
+library(tmaptools)
+library(tidyverse)
+library(grid)
+library(leaflet)
+library(leafpop)
+library(leaflet.extras)
+library(here)
+
+#to examine name of layers
+layers <- st_layers(here("CulturalInfrastructureMap.gpkg"))
+layer_names <- layers$name
+print(layer_names)
+
+#Load layers of interests
+Arts_Centres <- st_read(here("CulturalInfrastructureMap.gpkg"), layer = "Arts_centres")
+Community_Centres <- st_read(here("CulturalInfrastructureMap.gpkg"), layer = "Community_centres")
+Libraries <- st_read(here("CulturalInfrastructureMap.gpkg"), layer = "Libraries")
+Museums_and_Public_Galleries <- st_read(here("CulturalInfrastructureMap.gpkg"), layer = "Museums_and_public_galleries")
+Theatres <- st_read(here("CulturalInfrastructureMap.gpkg"), layer = "Theatres")
+
+# Function to create a popup table
+createPopupTable <- function(data) {
+  data %>%
+    st_transform(., 4326) %>%
+    st_drop_geometry() %>%
+    dplyr::select(name) %>%
+    popupTable()
+}
+
+# Create popup tables for each category
+popup_arts_centres <- createPopupTable(Arts_Centres)
+popup_community_centres <- createPopupTable(Community_Centres)
+popup_libraries <- createPopupTable(Libraries)
+popup_museums_public_galleries <- createPopupTable(Museums_and_Public_Galleries)
+popup_theatres <- createPopupTable(Theatres)
+
+#Create map
+map %>% leaflet() %>%
+  addTiles() %>% 
+  addProviderTiles(providers$CartoDB.Positron, group = "CartoDB") %>%
+  addCircleMarkers(data = Arts_Centres, lat = ~latitude, lng = ~longitude, popup = popup_arts_centres, group = "Arts Centres", radius = 3, fill = TRUE, fillColor = "red", color = "red") %>%
+  addCircleMarkers(data = Community_Centres, lat = ~latitude, lng = ~longitude, popup = popup_community_centres, group = "Community Centres", radius = 3, fill = TRUE, fillColor = "blue", color = "blue") %>%
+  addCircleMarkers(data = Libraries, lat = ~latitude, lng = ~longitude, popup = popup_libraries, group = "Libraries", radius = 3, fill = TRUE, fillColor = "green", color = "green") %>%
+  addCircleMarkers(data = Museums_and_Public_Galleries, lat = ~latitude, lng = ~longitude, popup = popup_museums_public_galleries, group = "Museums and Galleries", radius = 3, fill = TRUE, fillColor = "purple", color = "purple") %>%
+  addCircleMarkers(data = Theatres, lat = ~latitude, lng = ~longitude, popup = popup_theatres, group = "Theatres", radius = 3, fill = TRUE, fillColor = "orange", color = "orange") %>%
+  addLayersControl(baseGroups = c("OSM (default)", "CartoDB"),
+                   overlayGroups = c("Arts Centres", "Community Centres", "Libraries", "Museums and Galleries", "Theatres"),
+                   options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  addLegend(
+    position = "bottomleft",
+    colors = c("red", "blue", "green", "purple", "orange"),
+    labels = c("Arts Centres", "Community Centres", "Libraries", "Museums and Galleries", "Theatres"),
+    title = "Categories"
+  )
+  
+#Export>Save as Web Page
+#Issue with library(htmlwidgets)
+#saveWidget(my_map, file="heatmap_map.html")
+#Error in x$elementId : object of type 'closure' is not subsettable
