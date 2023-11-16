@@ -11,6 +11,16 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 15: OpenStreetMaps
+
+15th November marks the halfway mark of this endeavour and it has been inspiring seeing the various techniques, tools and visualisations crafted by other professionals. It is also GIS Day so wishing all in continuing to inspire the world with GIS and developing new ways of exploring our world.
+
+Not only that but 15th November is also Steve Irwin Day. To honour The Crocodile Hunter, I have clipped an OSM basemap of the Gold Coast (including the Australia Zoo) in the shape of the crocodile.
+
+
+
+![OSMCrocodile](Maps/Day15.png)
+
 ### Day 14: Europe
 
 Made a leaflet map (https://lnkd.in/gjFbNztP) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
