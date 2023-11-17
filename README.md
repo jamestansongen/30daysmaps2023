@@ -11,13 +11,20 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 16: Oceania
+
+For today's map, stitched three maps together to capture the full boundary (zoomed in) and some of the features located in the Great Barrier Reef Marine Park
+
+![GreatBarrierReef](Maps/Day16.png)
+
+Data Source: [Great Barrier Reef Marine Park Features](https://data.gov.au/data/dataset/great-barrier-reef-marine-park-features) ; [Great Barrier Reef Marine Park Boundary](https://geoportal.gbrmpa.gov.au/maps/68d92e6e49fa4fd59b66e22f5c45156c)
+Picture Source: [Turtle](https://unsplash.com/photos/white-and-black-sea-turtle-under-water-TLxTFr9AoO0), [Shark](https://pixabay.com/photos/shark-great-barrier-reef-underwater-2683184/), [Coral Reefs](https://unsplash.com/photos/an-aerial-view-of-a-coral-reef-in-the-ocean-k4XDVl-JCpQ)
+
 ### Day 15: OpenStreetMaps
 
 15th November marks the halfway mark of this endeavour and it has been inspiring seeing the various techniques, tools and visualisations crafted by other professionals. It is also GIS Day so wishing all in continuing to inspire the world with GIS and developing new ways of exploring our world.
 
 Not only that but 15th November is also Steve Irwin Day. To honour The Crocodile Hunter, I have clipped an OSM basemap of the Gold Coast (including the Australia Zoo) in the shape of the crocodile.
-
-
 
 ![OSMCrocodile](Maps/Day15.png)
 
@@ -26,6 +33,8 @@ Not only that but 15th November is also Steve Irwin Day. To honour The Crocodile
 Made a leaflet map (https://lnkd.in/gjFbNztP) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
 
 ![CulturalInfrastructure](Maps/Day14.gif)
+
+Data Source: [Cultural Infrastructure Data Points](https://data.london.gov.uk/dataset/cultural-infrastructure-map)
 
 ### Day 13: Chloropleth
 
