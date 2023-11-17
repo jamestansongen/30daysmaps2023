@@ -11,6 +11,15 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 17: Flow
+
+What better way to represent flows than rivers? Decided to plot the rivers of South America with the line thickness and colour becoming more intense with increasing Strahler number. I couldn't decide if a black or white background was more visually pleasing hence I decided to design both.
+
+![RSAb](Maps/Day17b.png)
+![RSAw](Maps/Day17w.png)
+
+Data Source: [Food and Agriculture Organization](https://data.apps.fao.org/catalog/iso/12d7d96a-b0ea-4aea-aedc-b9c9a80cab7f)
+
 ### Day 16: Oceania
 
 For today's map, stitched three maps together to capture the full boundary (zoomed in) and some of the features located in the Great Barrier Reef Marine Park
