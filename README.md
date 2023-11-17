@@ -13,7 +13,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 17: Flow
 
-What better way to represent flows than rivers? Decided to plot the rivers of South America with the line thickness and colour becoming more intense with increasing Strahler number. I couldn't decide if a black or white background was more visually pleasing hence I decided to design with both.
+What better way to represent flows than rivers? Okay others could debate ocean currents or jet streams too. Decided to plot the rivers of South America with the line thickness and shade becoming more intense with increasing Strahler number. Although the Amazon is considered a twelfth order waterway, the dataset classifies the rivers from first to eighth orders (possibly due to methodology). I couldn't decide if a black or white background had better aesthetics hence I decided to design with both.
 
 ![RSAb](Maps/Day17b.png)
 ![RSAw](Maps/Day17w.png)
