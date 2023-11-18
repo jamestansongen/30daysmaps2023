@@ -1,0 +1,3 @@
+#https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html
+#The file sizes are too big to upload. The link to the data is as above.
+#Downloaded ssp370; ACCESS-CM2; tx for 2021-2040, 2041-2060, 2061-2080 and 2081-2100
