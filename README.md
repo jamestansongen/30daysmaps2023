@@ -11,6 +11,16 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 18: Atmosphere
+
+For Day 18 of #30DayMapChallenge with the theme of atmosphere, decided to work with one of the datasets used in my GIS module. This map shows an animation of the projected monthly average maximum temperature for 2081-2100, under the assumption of the ssp370 scenario (Regional Rivalry – A Rocky Road (High challenges to mitigation and adaptation)). There were 5 different scenarios defined under the IPCC Sixth Assessment Report in 2021. [CarbonBrief](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/) provides a good summary on the narratives and implications.
+
+Data Source: https://lnkd.in/gs5zTNTV (Note: Besides maximum temperature, other variables such as minimum temperature, precipitation and bioclimates are available)
+
+![Monthly average maximum temperature for 2081-2100:ssp370](Maps/Day18.gif)
+
+Data Source: [WorldClim]([https://data.london.gov.uk/dataset/cultural-infrastructure-map](https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html))
+
 ### Day 17: Flow
 
 What better way to represent flows than rivers? Okay others could debate ocean currents or jet streams too. Decided to plot the rivers of South America with the line thickness and shade becoming more intense with increasing Strahler number. Although the Amazon is considered a twelfth order waterway, the dataset classifies the rivers from first to eighth orders (possibly due to methodology). I couldn't decide if a black or white background had better aesthetics hence I decided to design with both.
@@ -39,7 +49,7 @@ Not only that but 15th November is also Steve Irwin Day. To honour The Crocodile
 
 ### Day 14: Europe
 
-Made a leaflet map (https://lnkd.in/gjFbNztP) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
+Made a leaflet map (https://jamestansongen.github.io/London_Cultural_Infrastructure/) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
 
 ![CulturalInfrastructure](Maps/Day14.gif)
 
