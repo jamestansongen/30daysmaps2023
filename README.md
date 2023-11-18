@@ -15,10 +15,9 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 For Day 18 of #30DayMapChallenge with the theme of atmosphere, decided to work with one of the datasets used in my GIS module. This map shows an animation of the projected monthly average maximum temperature for 2081-2100, under the assumption of the ssp370 scenario (Regional Rivalry – A Rocky Road (High challenges to mitigation and adaptation)). There were 5 different scenarios defined under the IPCC Sixth Assessment Report in 2021. [CarbonBrief](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/) provides a good summary on the narratives and implications.
 
-Data Source: [WorldClim](https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html) (Note: Besides maximum temperature, other variables such as minimum temperature, precipitation and bioclimates are available)
-
 ![Monthly average maximum temperature for 2081-2100:ssp370](Maps/Day18.gif)
 
+Data Source: [WorldClim](https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html) (Note: Besides maximum temperature, other variables such as minimum temperature, precipitation and bioclimates are available)
 
 ### Day 17: Flow
 
