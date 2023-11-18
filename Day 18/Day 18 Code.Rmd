@@ -1,0 +1,37 @@
+---
+title: "Day 18"
+output: html_document
+date: "18-11-2023"
+---
+
+```{r}
+library(animation)
+library(viridis)
+library(here)
+
+# Load the raster file with 12 layers
+raster_stack <- stack(here("wc2.1_2.5m_tmax_ACCESS-CM2_ssp370_2081-2100.tif"))
+
+# Define month names
+month_names <- month.abb[1:12]
+
+# Define breaks and colors for temperature legend
+breaks <- seq(-80, 80, by = 10)
+colors <- viridis(length(breaks) - 1, option = "plasma")
+
+# Define the function to create frames for animation
+create_frames <- function(index) {
+  layer <- raster_stack[[index]]
+  plot(layer, main = month_names[index], col = colors, breaks = breaks, legend = TRUE)
+}
+
+
+# Create animation
+saveGIF({
+  for (i in 1:nlayers(raster_stack)) {
+    create_frames(i)
+    Sys.sleep(1)  # Adjust the sleep duration as needed
+  }
+}, interval = 1, movie.name = "temperature_animation.gif")
+
+```
