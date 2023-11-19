@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 19: 5 Minute Map
+
+Well I exceeded the time with a total of 6 minutes 5 seconds to find the data, open QGIS, adjust the symbology and export the file. In order to make a 5 minute map, one really needs to have a clear idea of what they want to plot, and being familiar with the availability and type of data. As such, I chose to do a map of Singapore. The map below shows the distribution of lamp posts around the island which makes it one of the safest places to walk at 2am in the morning (besides other factors).
+
+![SingaporeLampPost](Maps/Day19.png)
+
+Data Source: [LTA Data Mall](https://datamall.lta.gov.sg/content/datamall/en/static-data.html)
+
 ### Day 18: Atmosphere
 
 For Day 18 of #30DayMapChallenge with the theme of atmosphere, decided to work with one of the datasets used in my GIS module. This map shows an animation of the projected monthly average maximum temperature for 2081-2100, under the assumption of the ssp370 scenario (Regional Rivalry – A Rocky Road (High challenges to mitigation and adaptation)). There were 5 different scenarios defined under the IPCC Sixth Assessment Report in 2021. [CarbonBrief](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/) provides a good summary on the narratives and implications.
