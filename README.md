@@ -13,7 +13,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 19: 5 Minute Map
 
-Well I exceeded the time with a total of 6 minutes 5 seconds to find the data, open QGIS, adjust the symbology and export the file. In order to make a 5 minute map, one really needs to have a clear idea of what they want to plot, and being familiar with the availability and type of data. As such, I chose to do a map of Singapore. The map below shows the distribution of lamp posts around the island which makes it one of the safest places to walk at 2am in the morning (besides other factors).
+Well I exceeded the time with a total of 6 minutes 5 seconds to find the data, open QGIS, adjust the symbology and export the file. In order to make a 5 minute map, one really needs to have a clear idea of what they want to plot, and being familiar with the availability and type of data. As such, I chose to do a map of Singapore. The map below shows the distribution of lamp posts around the island which makes it one of the safest places to walk at 2am (besides other factors).
 
 ![SingaporeLampPost](Maps/Day19.png)
 
