@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 20: Outdoors
+
+The US National Parks never fail to take my breath away with their majestic landscapes and fascinating wildlife. For this challenge, I decided to make a timelapse of Crater Lake. In January 2017, I attempted to visit but was blocked by snow and I returned in summer/May 2017 (top-right). To make the timelapse, I experimented with Sentinel Hub and selected Sentinel-2 as the data source. The intervals between each image was quite short and the interface was really easy to navigate. I set a Minimum Tile Coverage of 10% and Maximum Cloud Cover of 70%, along with filtering out some extra images before exporting out the final output.
+
+![Crater Lake](Maps/Day20.gif)
+
+Data Source: [Sentinel Hub](https://www.sentinel-hub.com/)
+
 ### Day 19: 5 Minute Map
 
 Well I exceeded the time with a total of 6 minutes 5 seconds to find the data, open QGIS, adjust the symbology and export the file. In order to make a 5 minute map, one really needs to have a clear idea of what they want to plot, and being familiar with the availability and type of data. As such, I chose to do a map of Singapore. The map below shows the distribution of lamp posts around the island which makes it one of the safest places to walk at 2am (besides other factors).
