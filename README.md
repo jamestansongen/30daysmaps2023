@@ -15,9 +15,9 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 I was looking forward to it to use some of the drone images I took in the last year. However, encountered some roadblocks in doing more meaningful classifications or analysis (something to do with requiring x number of images with overlaps in the same area and bands). As such, I could just do a Terrain Ruggedness Index at the moment. Do enjoy the drone images shot on Dji Mini 2 (Sao Vicente and Pular Besar) and Dji Mini 3 Pro (Seven Sisters) though :)
 
-![SevenSisters](Maps/Day21a.png)
-![SaoVicente](Maps/Day21b.png)
-![PulauBesar](Maps/Day21c.png)
+![SevenSisters](Maps/Day21a.PNG)
+![SaoVicente](Maps/Day21b.PNG)
+![PulauBesar](Maps/Day21c.PNG)
 
 Data Source: Author's own
 
