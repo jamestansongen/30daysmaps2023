@@ -17,7 +17,7 @@ Finally managed to include a map of North Carolina, my first home away from home
 
 ![NC](Maps/Day23.png)
 
-Population Spike Tutorial: [Rayshader Tutorial—Florida Population Density](https://www.youtube.com/watch?v=zgFXVhmKNbU&ab_channel=SpencerSchien)
+Population Spike Tutorial: [Rayshader Tutorial—Florida Population Density](https://www.youtube.com/watch?v=zgFXVhmKNbU&ab_channel=SpencerSchien) \
 Data Source: [Kontur - USA](https://data.humdata.org/dataset/kontur-population-united-states-of-america) ; [Kontur - Japan](https://data.humdata.org/dataset/kontur-population-japan)
 
 
