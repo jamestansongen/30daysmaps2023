@@ -1,0 +1,180 @@
+---
+title: "Day 23 Code"
+output: html_document
+date: "23-11-2023"
+---
+
+#using full dataset without filtering out cities or states (example below uses Japan)
+```{r}
+library(sf)
+library(tigris)
+library(tidyverse)
+library(stars)
+library(rayshader)
+library(MetBrewer)
+library(colorspace)
+library(here)
+
+# load kontur data
+data <- st_read(here("kontur_population_JP_20231101.gpkg"))
+
+# define aspect ratio based on bounding box
+bb <- st_bbox(data)
+bottom_left <- st_point(c(bb[["xmin"]], bb[["ymin"]])) %>% 
+  st_sfc(crs = st_crs(data))
+bottom_right <- st_point(c(bb[["xmax"]], bb[["ymin"]])) %>% 
+  st_sfc(crs = st_crs(data))
+
+# check by plotting points
+
+width <- st_distance(bottom_left, bottom_right)
+top_left <- st_point(c(bb[["xmin"]], bb[["ymax"]])) %>% 
+  st_sfc(crs = st_crs(data))
+
+height <- st_distance(bottom_left, top_left)
+
+# handle conditions of width or height being the longer side
+
+if (width > height) {
+  w_ratio <- 1
+  h_ratio <- height / width
+} else {
+  h_ration <- 1
+  w_ratio <- width / height
+}
+
+# convert to raster so we can then convert to matrix
+
+size <- 5000
+
+japan_rast <- st_rasterize(data, 
+                             nx = floor(size * w_ratio),
+                             ny = floor(size * h_ratio))
+
+mat <- matrix(japan_rast$population, 
+              nrow = floor(size * w_ratio),
+              ncol = floor(size * h_ratio))
+
+# create color palette
+
+c1 <- met.brewer("OKeeffe2")
+swatchplot(c1)
+
+texture <- grDevices::colorRampPalette(c1, bias = 2)(256)
+swatchplot(texture)
+
+# plot spike map
+
+rgl::close3d()
+
+mat %>% 
+  height_shade(texture = texture) %>% 
+  plot_3d(heightmap = mat,
+          zscale = 100 / 5,
+          solid = FALSE,
+          shadowdepth = 0)
+  
+render_camera(theta = -20, phi = 45, zoom = .8)
+
+#adjust angle and zoom of image then uncomment to take snapshot
+#render_snapshot("FILENAME.png", clear = TRUE)
+
+
+```
+
+
+
+#using subset of data such as filtering North Carolina from US dataset (note runtime can be long due to st_intersection of big files
+```{R}
+library(sf)
+library(tigris)
+library(tidyverse)
+library(stars)
+library(rayshader)
+library(MetBrewer)
+library(colorspace)
+library(here)
+
+# load kontur data
+
+data <- st_read(here("kontur_population_US_20231101.gpkg"))
+
+# load states 
+st <- states()
+
+# filter for North Carolina
+nc <- st %>% 
+  filter(NAME == "North Carolina") |> 
+  st_transform(crs = st_crs(data))
+
+# do intersection on data to limit kontur to florida
+st_nc <- st_intersection(data, nc)
+
+# define aspect ratio based on bounding box
+bb <- st_bbox(st_nc)
+
+# define aspect ratio based on bounding box
+bb <- st_bbox(data)
+
+bottom_left <- st_point(c(bb[["xmin"]], bb[["ymin"]])) %>% 
+  st_sfc(crs = st_crs(data))
+
+bottom_right <- st_point(c(bb[["xmax"]], bb[["ymin"]])) %>% 
+  st_sfc(crs = st_crs(data))
+
+# check by plotting points
+
+width <- st_distance(bottom_left, bottom_right)
+
+top_left <- st_point(c(bb[["xmin"]], bb[["ymax"]])) %>% 
+  st_sfc(crs = st_crs(data))
+
+height <- st_distance(bottom_left, top_left)
+
+# handle conditions of width or height being the longer side
+
+if (width > height) {
+  w_ratio <- 1
+  h_ratio <- height / width
+} else {
+  h_ration <- 1
+  w_ratio <- width / height
+}
+
+# convert to raster so we can then convert to matrix
+
+size <- 5000
+
+nc_rast <- st_rasterize(st_nc, 
+                             nx = floor(size * w_ratio),
+                             ny = floor(size * h_ratio))
+
+mat <- matrix(nc_rast$population, 
+              nrow = floor(size * w_ratio),
+              ncol = floor(size * h_ratio))
+
+# create color palette
+
+c1 <- met.brewer("OKeeffe2")
+swatchplot(c1)
+
+texture <- grDevices::colorRampPalette(c1, bias = 2)(256)
+swatchplot(texture)
+
+# plot spike map
+
+rgl::close3d()
+
+mat %>% 
+  height_shade(texture = texture) %>% 
+  plot_3d(heightmap = mat,
+          zscale = 100 / 5,
+          solid = FALSE,
+          shadowdepth = 0)
+  
+render_camera(theta = -20, phi = 45, zoom = .8)
+
+#adjust angle and zoom of image then uncomment to take snapshot
+#render_snapshot("FILENAME.png", clear = TRUE)
+
+```
