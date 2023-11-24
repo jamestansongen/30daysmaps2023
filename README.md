@@ -11,6 +11,16 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 23: 3D
+
+Finally managed to include a map of North Carolina, my first home away from home back in 2016/2017. For this challenge, I followed a tutorial to make a population spike map. The most time consuming portion was the st_intersection to carve out North Carolina from the entire US data but the results were definitely worth it.
+
+![NC](Maps/Day23.png)
+
+Population Spike Tutorial: [Rayshader Tutorial—Florida Population Density](https://www.youtube.com/watch?v=zgFXVhmKNbU&ab_channel=SpencerSchien)
+Data Source: [Kontur - USA](https://data.humdata.org/dataset/kontur-population-united-states-of-america) ; [Kontur - Japan](https://data.humdata.org/dataset/kontur-population-japan)
+
+
 ### Day 22: North is not always up
 
 This theme was a bit less straightforward to interpret and I was thinking of 1) just flipping the map 180 degrees (but that would be very lazy), 2) Spilhaus Projection (but not supported in QGIS or Rstudio) or 3) Plotting places called North (only found two: one in South Carolina, US and the other in Nigeria). In the end, went for plotting the global north-south divide which doesn't really divide the world into neat halves, among other criticisms. Added in the Human Development Index 2019 (also not without its flaws) to see holistically how countries are performing in recent years.
@@ -145,7 +155,7 @@ Decided to follow [Helen McKenzie's](https://www.helenmakesmaps.com/post/how-to-
 
 I made a joy plot of Cape Town, South Africa as it was the first African city I visited back in 2003. Table Mountain with an elevation of 1086m (bottom left) offers a breathtaking panorama of the city and it is home to adorable dassies (or rock hyrax). I would definitely recommend visiting!
 
-Joyplot Tutorial: [How to make a joy-plot](https://www.helenmakesmaps.com/post/how-to-joy-plot)
+Joyplot Tutorial: [How to make a joy-plot](https://www.helenmakesmaps.com/post/how-to-joy-plot) \
 Data Source: [USGS](https://earthexplorer.usgs.gov/)
 
 ### Day 7: Navigation
