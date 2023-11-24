@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 22: North is not always up
+
+This theme was a bit less straightforward to interpret and I was thinking of 1) just flipping the map 180 degrees (but that would be very lazy), 2) Spilhaus Projection (but not supported in QGIS or Rstudio) or 3) Plotting places called North (only found two: one in South Carolina, US and the other in Nigeria). In the end, went for plotting the global north-south divide which doesn't really divide the world into neat halves, among other criticisms. Added in the Human Development Index 2019 (also not without its flaws) to see holistically how countries are performing in recent years.
+
+![HDI](Maps/Day22.PNG)
+
+Data Source: [ArcGIS Hub](https://hub.arcgis.com/datasets/93b4764f3b3f4b7bb31feaf50499b56f/explore)
+
 ### Day 21: Raster
 
 I was looking forward to it to use some of the drone images I took in the last year. However, encountered some roadblocks in doing more meaningful classifications or analysis (something to do with requiring x number of images with overlaps in the same area and bands). As such, I could just do a Terrain Ruggedness Index at the moment. Do enjoy the drone images shot on Dji Mini 2 (Sao Vicente and Pular Besar) and Dji Mini 3 Pro (Seven Sisters) though :)
