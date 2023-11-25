@@ -13,7 +13,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 23: 3D
 
-Finally managed to include a map of North Carolina, my first home away from home back in 2016/2017. For this challenge, I followed a tutorial to make a population spike map. The most time consuming portion was the st_intersection to carve out North Carolina from the entire US data but the results were definitely worth it.
+Finally managed to include a map of North Carolina, my first home away from home back in 2016/2017. For this challenge, I followed a tutorial to make a population spike map. The most time consuming portion was the st_intersection to carve out North Carolina from the entire US data but the results were definitely worth it. Also quite impressed by the data provided by Kontur Inc. which has a spatial resolution of 400m for the entire US.
 
 ![NC](Maps/Day23.png)
 
