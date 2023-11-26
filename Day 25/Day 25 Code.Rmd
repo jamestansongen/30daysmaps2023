@@ -1,0 +1,88 @@
+---
+title: "Day 25 Code"
+output: html_document
+date: "25-11-2023"
+---
+
+```{r}
+library(dplyr)
+library(stringr)
+library(sf)
+library(leaflet)
+library(leaflet.extras)
+library(leaflet.providers)
+library(viridis)
+library(htmlwidgets)
+library(here)
+
+
+data <- read.csv(here("data_modified.csv"))	
+
+# Function to convert degrees and minutes to decimal degrees
+convert_degrees_minutes_to_decimal <- function(coord) {
+  # Extract numeric parts from the coordinate using regular expressions
+  numeric_parts <- as.numeric(str_extract_all(coord, "[0-9.]+")[[1]])
+  
+  # Check if numeric parts were found
+  if (length(numeric_parts) < 2) {
+    return(NA)
+  }
+  
+  # Extract degrees, minutes, and direction
+  degrees <- numeric_parts[1]
+  minutes <- numeric_parts[2]
+  direction <- substr(coord, nchar(coord), nchar(coord))
+  
+  # Convert to decimal degrees
+  decimal_degrees <- degrees + minutes / 60
+  decimal_degrees <- ifelse(toupper(direction) %in% c("S", "W"), -decimal_degrees, decimal_degrees)
+  
+  return(decimal_degrees)
+}
+
+# Apply the conversion to the entire dataset
+data <- data %>%
+  mutate(
+    latitude_decimal = sapply(latitude, convert_degrees_minutes_to_decimal),
+    longitude_decimal = sapply(longitude, convert_degrees_minutes_to_decimal)
+  ) %>%
+  filter(latitude_decimal < 0)  # Keep only points below the equator
+
+# Specify the number of classes
+num_classes <- 5
+
+# Create class breaks with equal intervals
+breaks <- seq(min(data$visitors), max(data$visitors), length.out = num_classes + 1)
+
+# Define a color scale based on the class breaks
+colorScale <- colorNumeric(palette = viridis(num_classes), domain = breaks)
+
+# Create the Leaflet map
+myMap <- leaflet() %>%
+  addProviderTiles(
+    providers$CartoDB.Positron,
+    options = providerTileOptions(noWrap = TRUE)
+  ) %>%
+  setView(lng = -70, lat = -65, zoom = 3) %>%
+  addTiles(
+    urlTemplate = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    attribution = NULL,
+    options = tileOptions(noWrap = TRUE)
+  ) %>%
+  addCircleMarkers(
+    data = data,
+    ~longitude_decimal,
+    ~latitude_decimal,
+    radius = 2,
+    color = ~colorScale(visitors),
+    fillOpacity = 0.8,
+    popup = ~paste("<b>", place_name, "</b><br>Visitors: ", visitors)
+  )
+
+# Display the map in the RStudio Viewer
+myMap
+
+
+# Save the widget as an HTML file
+saveWidget(myMap, file = "myMap.html")
+```
