@@ -11,6 +11,15 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 24: Black and White
+
+celand is such a scenic location with glaciers, geologic formations, the Northern Lights and whales. Converted an elevation raster from OpenTopography into its contour lines. The black and white layout kind of reinforces the impression that Iceland is covered completely by ice when it is only permanently so by 11% [National Geographic](https://www.nationalgeographic.com/science/article/iceland-greenland-name-swap) 
+
+![Iceland](Maps/Day24.png)
+
+Population Spike Tutorial: [Rayshader Tutorial—Florida Population Density](https://www.youtube.com/watch?v=zgFXVhmKNbU&ab_channel=SpencerSchien) \
+Data Source: [OpenTopography](https://portal.opentopography.org/datasets)
+
 ### Day 23: 3D
 
 Finally managed to include a map of North Carolina, my first home away from home back in 2016/2017. For this challenge, I followed a tutorial to make a population spike map. The most time consuming portion was the st_intersection to carve out North Carolina from the entire US data but the results were definitely worth it. Also quite impressed by the data provided by Kontur Inc. which has a spatial resolution of 400m for the entire US.
