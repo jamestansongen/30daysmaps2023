@@ -1,0 +1,5 @@
+Data Source: https://portal.opentopography.org/datasets
+
+Step 1: Select a region and draw a map around Iceland
+Step 2: Select Copernicus Global Digital Elevation Models-->Copernicus 30m
+Step 3: Download the files
