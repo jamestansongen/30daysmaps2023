@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 25: Antarctica
+
+I have visited all of the continents so far except Antarctica and hence was interested in the tourism data. Did a simple leaflet map which shows the various sites and visitors for 2022-23. The interactive map can be accessed at [2022-2023 Vessel Tourist Site Visits/](https://jamestansongen.github.io/2022-2023-Vessel-Tourist-Site-Visits/). The actual dataset is more comprehensive as it breaks down the numbers into the activities such as skiing, kayaking, climbing, filming, etc. Always happy for any sponsors for a trip to the South Pole :)
+
+![Antarctica](Maps/Day25.gif)
+
+Data Source: [IAATO](https://iaato.org/information-resources/data-statistics/visitor-statistics/visitor-statistics-downloads/)
+
 ### Day 24: Black and White
 
 celand is such a scenic location with glaciers, geologic formations, the Northern Lights and whales. Converted an elevation raster from OpenTopography into its contour lines. The black and white layout kind of reinforces the impression that Iceland is covered completely by ice when it is only permanently so by 11% according to [National Geographic](https://www.nationalgeographic.com/science/article/iceland-greenland-name-swap) 
