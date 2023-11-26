@@ -108,7 +108,7 @@ Not only that but 15th November is also Steve Irwin Day. To honour The Crocodile
 
 ### Day 14: Europe
 
-Made a leaflet map (https://jamestansongen.github.io/London_Cultural_Infrastructure/) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
+Made a leaflet map [London Cultural Infrastructure](https://jamestansongen.github.io/London_Cultural_Infrastructure/) where you can change basemap and filter different categories of London Cultural Infrastructure. The original data source has 35 categories but I added in only 5 categories. The code is available to replicate the workflow and add more categories if one wishes to.
 
 ![CulturalInfrastructure](Maps/Day14.gif)
 
