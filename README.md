@@ -13,7 +13,7 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 ### Day 24: Black and White
 
-celand is such a scenic location with glaciers, geologic formations, the Northern Lights and whales. Converted an elevation raster from OpenTopography into its contour lines. The black and white layout kind of reinforces the impression that Iceland is covered completely by ice when it is only permanently so by 11% [National Geographic](https://www.nationalgeographic.com/science/article/iceland-greenland-name-swap) 
+celand is such a scenic location with glaciers, geologic formations, the Northern Lights and whales. Converted an elevation raster from OpenTopography into its contour lines. The black and white layout kind of reinforces the impression that Iceland is covered completely by ice when it is only permanently so by 11% according to [National Geographic](https://www.nationalgeographic.com/science/article/iceland-greenland-name-swap) 
 
 ![Iceland](Maps/Day24.png)
 
