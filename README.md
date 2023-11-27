@@ -1,4 +1,4 @@
-# 30daysmaps2023
+# 30DayMapChallenge 2023
 
 This is my contribution to the #30DayMapChallenge for November 2023.\
 About the #30DayMapChallenge , check out <https://30daymapchallenge.com/> !
@@ -10,6 +10,13 @@ About the #30DayMapChallenge , check out <https://30daymapchallenge.com/> !
 I am a postgraduate student current undertaking a MSc in Urban Spatial Science at UCL (expected graduation = August 2024). \
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
+
+### Day 26: Minimal
+
+Trying to cover more of the cities that I visited. Whenever I visit the souvenir shops and see that the postcards have generic images in the front, I would wish for postcards with maps of the city. This inspired me to assemble the following maps of Cuzco and Hong Kong from OpenStreetMap. How time flies and we are entering the last few days of the challenge.
+
+![Cuzco](Maps/Day26a.PNG)
+![HK](Maps/Day26b.PNG)
 
 ### Day 25: Antarctica
 
