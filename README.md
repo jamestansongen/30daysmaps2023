@@ -15,8 +15,8 @@ My other interests include hiking, drone piloting/photogrpahy and board games.
 
 Trying to cover more of the cities that I visited. Whenever I visit the souvenir shops and see that the postcards have generic images in the front, I would wish for postcards with maps of the city. This inspired me to assemble the following maps of Cuzco and Hong Kong from OpenStreetMap. How time flies and we are entering the last few days of the challenge.
 
-![Cuzco](Maps/Day26a.PNG)
-![HK](Maps/Day26b.PNG)
+![Cuzco](Maps/Day26a.png)
+![HK](Maps/Day26b.png)
 
 ### Day 25: Antarctica
 
