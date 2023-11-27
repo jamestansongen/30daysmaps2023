@@ -1,0 +1,5 @@
+https://download.geofabrik.de/asia.html
+- Download .shp.zip for China
+
+https://download.geofabrik.de/south-america.html
+- Download .shp.zip for Peru
