@@ -1,0 +1,167 @@
+---
+title: "Day 27 Code"
+output: html_document
+date: "27-11-2023"
+---
+
+```{r}
+library(tidyverse)
+library(terra)
+library(sf)
+library(giscoR)
+library(shiny)
+library(here)
+
+#1 GET COUNTRY MAP [Brazil in this case]
+
+country_sf <- giscoR::gisco_get_countries(
+    country = "BR",
+    resolution = "3"
+)
+
+#2 Get data
+
+local_paths <- c(here("VNL_v22_npp-j01_2022_global_vcmslcfg_c202303062300.average_masked.dat.tif"), here("VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.average_masked.dat.tif"))
+
+#3 Load Data
+globe_lights <- lapply(
+    local_paths,
+    terra::rast
+)
+
+#4 Crop data
+
+country_lights_list <- lapply(
+    globe_lights,
+    function(x){
+        terra::crop(
+            x,
+            terra::vect(country_sf),
+            snap = "in",
+            mask = T
+        )
+    }
+)
+
+#5 Transform projection
+
+crs_albers_brazil <- "+proj=aea +lat_1=-2 +lat_2=-22 +lat_0=-12 +lon_0=-54 +x_0=5000000 +y_0=10000000 +datum=WGS84 +units=m +no_defs"
+
+country_lights_reproj <- lapply(
+    country_lights_list,
+    function(x){
+        terra::project(
+            x,
+            y = crs_albers_brazil
+        )
+    }
+)
+
+#6 Remove 0s and Subzeroes
+
+country_lights_final <- lapply(
+    country_lights_reproj,
+    function(x){
+        terra::ifel(
+            x <= 0,
+            NA,
+            x
+        )
+    }
+)
+
+#7 Raster to dataframe
+
+country_lights_df <- lapply(
+    country_lights_final,
+    function(x){
+        as.data.frame(
+            x,
+            xy = T,
+            na.rm = T
+        )
+    }
+)
+
+str(country_lights_df)
+col_names <- c("x", "y", "value")
+country_lights_df <- lapply(
+    country_lights_df,
+    setNames,
+    col_names
+)
+
+#8 Map
+
+cols <- c("#1f4762", "#FFD966", "white")
+pal <- colorRampPalette(
+    cols, bias = 8
+)(512)
+
+years <- c(2022, 2012)
+names(country_lights_df) <- years
+str(country_lights_df)
+
+map <- lapply(
+    names(country_lights_df),
+    function(df){
+        ggplot(
+            data = country_lights_df[[df]]
+        ) +
+        geom_sf(
+            data = country_sf,
+            fill = NA,
+            color = cols[[1]],
+            size = .05
+        ) +
+        geom_tile(
+            aes(
+                x = x,
+                y = y,
+                fill = value
+            )
+        ) +
+        scale_fill_gradientn(
+            name = "",
+            colors = pal
+        ) +
+        coord_sf(
+            crs = crs_albers_brazil
+        ) +
+        theme_void() +
+        theme(
+            legend.position = "none",
+            plot.title = element_text(
+                size = 80,
+                color = "white",
+                hjust = .5,
+                vjust = 0
+            ),
+            plot.margin = unit(
+                c(
+                    t = 0, r = 0,
+                    l = 0, b = 0
+                ), "lines"
+            )
+        ) +
+        labs(title = df)
+    }
+)
+
+for (i in 1:2){
+    file_name = paste0(
+        "brazil_map_", i,
+        ".png")
+    png(
+        file_name,
+        width = 800,
+        height = 800,
+        units = "px",
+        bg = "#182833"
+    )
+
+    print(map[[i]])
+    dev.off() 
+}
+
+```
