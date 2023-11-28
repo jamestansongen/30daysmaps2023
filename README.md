@@ -11,6 +11,12 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 28: Is this a map or a chart?
+
+It's a map, it's a chart, it's a dashboard? Originally plotted just the UAS Restrictions Map as I interpreted the theme in terms of (navigation) charts but realised should have included some graphs/charts. Extracted the data from some reports and assembled the items in PowerBI.
+
+![Drone](Maps/Day28.png)
+
 ### Day 27: Dot
 
 Night lights can be used as a proxy to infer a city's development. The logic behind this is that urban areas tend to exhibit higher levels of artificial lighting compared to rural or less developed areas. For today's theme, created a time slider for Brazil between 2012 and 2022 which highlights the magnitude of its urbanisation (accessible at [2012-2022 Brazil Night Lights](https://jamestansongen.github.io/Brazil-2012-2022-nightlights/)). I also had to follow two tutorials for this. The first was cropping, transforming, cleaning and creating the individual maps in RStudio followed by making the time slider in Python (couldn't figure out why the slider in RStudio wasn't working yet).
