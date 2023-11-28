@@ -11,6 +11,15 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 27: Dot
+
+Day 27 of #30DayMapChallenge: Dot. Night lights can be used as a proxy to infer a city's development. The logic behind this is that urban areas tend to exhibit higher levels of artificial lighting compared to rural or less developed areas. For today's theme, created a time slider for China between 2012 and 2022 which highlights the magnitude of its urbanisation (accessible at [2012-2022 China Night Lights](https://lnkd.in/eVUAfcCa)). I also had to follow two tutorials for this. The first was cropping, transforming, cleaning and creating the individual maps in RStudio followed by making the time slider in Python (couldn't figure out why the slider in RStudio wasn't working yet).
+
+Tutorials: [Learn How to Make Stunning Swipe Maps for Your Projects | Easy and Fun](https://www.youtube.com/watch?v=1wz3RrfGG-c&t=2267s&ab_channel=MilosMakesMaps) ; [Image Comparison](https://leafmap.org/notebooks/76_image_comparison/)
+Data: [Earth Observation Group 2012 ](https://eogdata.mines.edu/nighttime_light/annual/v21/2012/VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.average_masked.dat.tif.gz) ; [Earth Observation Group 2022](https://eogdata.mines.edu/nighttime_light/annual/v22/2022/VNL_v22_npp-j01_2022_global_vcmslcfg_c202303062300.average_masked.dat.tif.gz)
+
+![China](Maps/Day27.gif)
+
 ### Day 26: Minimal
 
 Trying to cover more of the cities that I visited. Whenever I visit the souvenir shops and see that the postcards have generic images in the front, I would wish for postcards with maps of the city. This inspired me to assemble the following maps of Cuzco and Hong Kong from OpenStreetMap. How time flies and we are entering the last few days of the challenge.
