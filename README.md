@@ -18,7 +18,7 @@ Day 27 of #30DayMapChallenge: Dot. Night lights can be used as a proxy to infer 
 Tutorials: [Learn How to Make Stunning Swipe Maps for Your Projects | Easy and Fun](https://www.youtube.com/watch?v=1wz3RrfGG-c&t=2267s&ab_channel=MilosMakesMaps) ; [Image Comparison](https://leafmap.org/notebooks/76_image_comparison/) \
 Data: [Earth Observation Group 2012 ](https://eogdata.mines.edu/nighttime_light/annual/v21/2012/VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.average_masked.dat.tif.gz) ; [Earth Observation Group 2022](https://eogdata.mines.edu/nighttime_light/annual/v22/2022/VNL_v22_npp-j01_2022_global_vcmslcfg_c202303062300.average_masked.dat.tif.gz)
 
-![Brazil](Maps/Day27.gif)
+![Brazil]()
 
 ### Day 26: Minimal
 
