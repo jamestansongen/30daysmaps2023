@@ -11,6 +11,14 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 29: Population
+
+Decided to do a simple cartogram and experimented with various projections (3573, 4326, 54009, 54012, 54018, 54030, 54034) in QGIS. In the end settled for 54030 (also known for the Robinson Projection) which tries to balance distortions in shape, area, and distance across the entire world (hence why Russia still looks big).
+
+![Global Population](Maps/Day29b.png)
+
+Data Source: [kaggle](https://www.kaggle.com/datasets/tanuprabhu/population-by-country-2020)
+
 ### Day 28: Is this a map or a chart?
 
 It's a map, it's a chart, it's a dashboard? Originally plotted just the UAS Restrictions Map as I interpreted the theme in terms of (navigation) charts but realised should have included some graphs/charts. Extracted the data from some reports and assembled the items in PowerBI.
