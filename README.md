@@ -11,6 +11,18 @@ I am a postgraduate student current undertaking a MSc in Urban Spatial Science a
 My background is in geography/geographic information systems/remote sensing. My Bachelor's was a Joint-Degree between the National University of Singapore and University of North Carolina-Chapel Hill. \
 My other interests include hiking, drone piloting/photogrpahy and board games.
 
+### Day 30: "My favourite..."
+
+We finally come to the end of the 2023 season and my final map is a tribute to home. No fancy geospatial techniques today, just something simple and meaningful. I think no matter how many cities I move to, Singapore will still have a special place in my heart. The six images below are various places around the island (including my neighbourhood).
+
+![Singapore](Maps/Day30.png)
+
+It has been a long 30 days so just want to end off with a reflection. Due to the nature of my work, I went on a few years hiatus making maps and anything geospatial related. Doing my MSc and this hashtag#30DayMapChallenge made me realise how much the techniques, tools and data evolve within a short span of time. Over the course of this month, I picked up techniques like making a joyplot, population spike map, time slider, etc. I still have a lot to learn and improve on but I'm glad to be back on this path. Thank you everyone for the support along the way too :)
+
+
+Data Source: [data.gov.sg](data.gov.sg)
+
+
 ### Day 29: Population
 
 Decided to do a simple cartogram and experimented with various projections (3573, 4326, 54009, 54012, 54018, 54030, 54034) in QGIS. In the end settled for 54030 (also known for the Robinson Projection) which tries to balance distortions in shape, area, and distance across the entire world (hence why Russia still looks big).
