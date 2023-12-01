@@ -17,7 +17,7 @@ We finally come to the end of the 2023 season and my final map is a tribute to h
 
 ![Singapore](Maps/Day30.png)
 
-It has been a long 30 days so just want to end off with a reflection. Due to the nature of my work, I went on a few years hiatus making maps and anything geospatial related. Doing my MSc and this hashtag#30DayMapChallenge made me realise how much the techniques, tools and data evolve within a short span of time. Over the course of this month, I picked up techniques like making a joyplot, population spike map, time slider, etc. I still have a lot to learn and improve on but I'm glad to be back on this path. Thank you everyone for the support along the way too :)
+It has been a long 30 days so just want to end off with a reflection. Due to the nature of my work, I went on a few years hiatus making maps and anything geospatial related. Doing my MSc and this hashtag#30DayMapChallenge made me realise how much the techniques, tools and data evolved within a short span of time. Over the course of this month, I picked up techniques like making a joyplot, population spike map, time slider, etc. I still have a lot to learn and improve on but I'm glad to be back on this path. Thank you everyone for the support along the way too :)
 
 
 Data Source: [data.gov.sg](data.gov.sg)
